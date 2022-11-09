@@ -20,7 +20,7 @@ function Pagination({numOfPages, currentPage, setCurrentPage}) {
       <ul className="pagination">
         <li className="page-item">
           <a className="page-link"
-            href='#'
+            href='/#'
             onClick={goToPrevPage}
           >
             Previous
@@ -33,7 +33,7 @@ function Pagination({numOfPages, currentPage, setCurrentPage}) {
           > 
             <a 
               className="page-link"
-              href='#'
+              href='/#'
               onClick={() => setCurrentPage(pageNum)}
             >
               {pageNum}
@@ -42,7 +42,7 @@ function Pagination({numOfPages, currentPage, setCurrentPage}) {
         ))}
         <li className="page-item">
           <a className="page-link"
-            href='#'
+            href='/#'
             onClick={goToNextPage}
           >
             Next
