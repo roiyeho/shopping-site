@@ -1,0 +1,11 @@
+.ProductInfo h2 {
+  margin-bottom: 20px;
+}
+
+.ProductInfo img {
+  max-height: 250px;
+}
+
+.ProductInfo figcaption {
+  color: darkblue;
+}
